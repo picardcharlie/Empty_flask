@@ -1,6 +1,7 @@
 from app import create_app
 from flask_migrate import Migrate
-from app.models import #db, user, post, etc
+#from app.models import
+#db, user, post, etc
 
 app = create_app('default')
 migrate = Migrate(app, db)
